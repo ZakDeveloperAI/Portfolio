@@ -9,6 +9,7 @@ import Banner from "@/components/Banner";
 import Abouthome from "@/components/Abouthome";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Archive from "@/components/Archive";
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
             <Abouthome/>
             <Experience/>
             <Projects/>
+            <Archive/>
           </div>
           <motion.div
             initial={{ opacity: 0 }}
