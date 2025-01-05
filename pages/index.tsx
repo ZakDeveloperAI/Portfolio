@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Lefthome from "@/components/Lefthome";
@@ -10,6 +9,8 @@ import Abouthome from "@/components/Abouthome";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
+import ContactMe from "@/components/ContactMe";
+
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
             <Experience/>
             <Projects/>
             <Archive/>
+            <ContactMe/>
           </div>
           <motion.div
             initial={{ opacity: 0 }}

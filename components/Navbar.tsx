@@ -45,7 +45,7 @@ const Navbar = () => {
                 </motion.li>
               </Link>
 
-              <Link href="#project" className='flex items-center gap-1 font-medium text-textDark
+              <Link href="#projects" className='flex items-center gap-1 font-medium text-textDark
               hover:text-textGreen cursor-pointer duration-300 nav-link'>
                 <motion.li 
                   initial={{y:-10, opacity: 0 }} 
