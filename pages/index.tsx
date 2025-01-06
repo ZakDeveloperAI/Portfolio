@@ -35,7 +35,7 @@ export default function Home() {
             className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
             <Lefthome/>
           </motion.div>
-          <div className="h-[88vh] w-full mx-auto p-4">
+          <div className="h-[88vh] w-full mx-auto p-4 max-lg:w-[85%]">
             <Banner/>
             <Abouthome/>
             <Experience/>
