@@ -19,9 +19,9 @@ const Abouthome = () => {
             rounded-md absolute top-0 left-0 group-hover:-translate-x-2 
             group-hover:-translate-y-2 transition-transform duration-300 z-0"
           ></div>
-          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg z-10 max-md:mx-auto ">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg z-10 max-md:mx-auto">
             <Image
-              className="rounded-lg h-full object-cover bg-white sm:h-[300px] sm:w-[290px] lg:h-[320px] lg:w-[320px] max-lg:mx-auto"
+              className="rounded-lg h-full object-cover bg-white sm:h-[300px] sm:w-[290px] lg:h-[320px] lg:w-[320px] max-lg:mx-auto "
               src="/assets/images/ZakCVphoto (1).png"
               alt="profileImg"
               width={500}
