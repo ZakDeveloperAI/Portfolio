@@ -20,7 +20,7 @@ const Projects = () => {
                         >
                             <div>
                                 <Image
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-contain border-2 border-bodyColor rounded-lg"
                                     src={booking}
                                     alt="Project Booking"
                                 />
@@ -88,7 +88,7 @@ const Projects = () => {
                         >
                             <div>
                                 <Image
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-contain border-2 border-bodyColor rounded-lg"
                                     src={ecommerce}
                                     alt="Ecommerce Project"
                                 />
@@ -156,7 +156,7 @@ const Projects = () => {
                         >
                             <div>
                                 <Image
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-contain border-2 border-bodyColor rounded-lg"
                                     src={reservice}
                                     alt="Project Reservice"
                                 />
