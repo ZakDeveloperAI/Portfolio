@@ -2,6 +2,10 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
+import { FaDatabase, FaNodeJs, FaPython, FaReact } from "react-icons/fa6";
+import { SiJavascript, SiTensorflow } from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const Abouthome = () => {
   return (
@@ -62,14 +66,68 @@ const Abouthome = () => {
           <br />
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="max-w-[450px]  text-sm font-titleFont grid grid-cols-2 gap-2 mt-6 max-lg:mx-auto max-lg:gap-x-40 max-md:gap-x-20">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <li key={i} className="flex items-center gap-2">
-                <span className="text-textGreen">
-                  <AiFillThunderbolt />
-                </span>
-                JavaScript (ES6+)
-              </li>
-            ))}
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <SiJavascript />
+              </span>
+              JavaScript (ES6+)
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <FaReact />
+              </span>
+              React
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <FaNodeJs />
+              </span>
+              Node.js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <RiNextjsFill />
+              </span>
+              Next Js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <RiTailwindCssFill />
+              </span>
+              TailWind CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <TbBrandCSharp />
+              </span>
+              C#
+            </li>
+
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <SiTensorflow />
+              </span>
+              TensorFlow V2
+            </li>
+
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <FaPython />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <FaDatabase />
+              </span>
+              SQL Database
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+             Machine Learning
+            </li>
           </ul>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Banner = () => {
         pursuing a degree in Computer Engineering & Artificial Intelligence,
         combining my academic background with hands-on experience to create
         impactful digital solutions{" "}
-        <a href="">
+        <a href="https://github.com/ZakDeveloperAI" target="_blank">
             <span
                 className="text-textGreen inline-flex relative cursor-pointer h-7
                 overflow-x-hidden group"

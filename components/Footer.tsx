@@ -5,6 +5,7 @@ import { SiWhatsapp } from 'react-icons/si';
 import { BiPhoneCall } from "react-icons/bi";
 const Footer = () => {
     return (
+        <div className='mt-10'>   
         <div className=' inline-flex  items-center justify-center w-full 
         py-6 gap-4'>
             <a href="https://github.com/ZakDeveloperAI" target='_blank'>
@@ -35,6 +36,13 @@ const Footer = () => {
                     <BiPhoneCall size={20} />
                 </span>
             </a>
+            
+        </div>
+        <div className='flex flex-col  items-center justify-center w-full 
+        py-6 gap-4 text-xs'>
+                <h2>Designed & Developed by Belfakhir Zakaria</h2>
+                <p className='text-textGreen'>belfakhirzakaria@gmail.com</p>
+            </div>
         </div>
     )
 }
