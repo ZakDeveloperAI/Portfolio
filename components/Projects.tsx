@@ -79,7 +79,7 @@ const Projects = () => {
                 </div>
 
                 {/* {Second Project} */}
-                <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+                <div className="w-full  flex flex-col items-center justify-center mt-10">
                     <div className="flex flex-col xl:flex-row-reverse gap-6">
                         <a
                             className="w-full xl:w-1/2 h-auto relative group"
@@ -96,7 +96,7 @@ const Projects = () => {
                         </a>
                         <div
                             className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between
-                    items-end text-right  z-10"
+                    items-start text-left  z-10"
                         >
                             <p className="font-titleFont text-textGreen text-sm tracking-wide">
                                 Feautured Projects
