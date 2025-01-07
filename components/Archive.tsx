@@ -10,9 +10,20 @@ const Archive = () => {
                 <h2 className='text-3xl font-titleFont font-semibold'>
                     Other Noteworthy Projects
                 </h2>
-                <p className='text-sm font-titleFont text-textGreen'>
-                    view the archive
-                </p>
+                <a href="https://github.com/ZakDeveloperAI" target="_blank">
+            <span
+                className="text-sm font-titleFont text-textGreen inline-flex relative cursor-pointer h-7
+                overflow-x-hidden group mt-2"
+            >
+            view the archive
+            <span
+                className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1
+                -translate-x-[110%] group-hover:translate-x-0 transition-transform 
+                duration-500"
+            ></span>
+            </span>
+        </a>
+                
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10
         lgl:px-10'>

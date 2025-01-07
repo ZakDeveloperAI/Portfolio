@@ -48,7 +48,7 @@ const Abouthome = () => {
             Hello! My name is Belfakhir Zakaria, and I enjoy creating projects
             that bring ideas to life through technology. I am currently pursuing
             a degree in <span className="text-textGreen">Software and AI Engineering</span>, where I focus on building a
-            strong foundation in <span className="text-textGreen">software development and machine learning.</span>
+            strong foundation in <span className="text-textGreen">Software development and machine learning.</span>
             <br />
             <br />
             My interest in machine learning has grown as I’ve explored how
