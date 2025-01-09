@@ -16,7 +16,7 @@ const Abouthome = () => {
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         {/* Contenitore immagine */}
-        <div className="w-full lgl:w-1/3 h-80 relative group sm:order-1">
+        <div className="max-xl:hidden  w-full lgl:w-1/3 h-80 relative group sm:order-1">
           {/* Bordo */}
           <div
             className="hidden lgl:inline-flex w-full h-full border-2 border-textGreen
